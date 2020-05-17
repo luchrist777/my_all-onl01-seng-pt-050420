@@ -3,11 +3,7 @@ require 'pry'
 
 def my_all?(collection)
   i = 0
-  if block_return_values.include?(false)
-    false
-  else
-    true
-  end
+ 
 end
   block_return_values = []
   while i < collection.length
